@@ -16,6 +16,7 @@ const Navbar = () => {
                                 <Link passHref href="/activities"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">Nos activités</div></Link> 
                                 <Link passHref href="/location"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">Localisation</div></Link> 
                                 <Link passHref href="/pricing"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">Nos tarifs</div></Link> 
+                                <Link passHref href="/about"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">À propos</div></Link> 
                             </div>
                         </div>
                     </div>

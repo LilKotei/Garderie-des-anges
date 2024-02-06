@@ -1,0 +1,36 @@
+{
+    "activities":[
+        {
+            "id":1,
+            "name": "L'accueil",
+            "description": "L'accueil est le premier contact avec le client. Il est important de lui donner une bonne impression.",
+            "hours": "8h00 - 12h00",
+            "advantages": [
+                {
+                    "plan": "socio-affectif",
+                    "elements":[
+                        "Mettre les parents et les enfants en confiance",
+                        "Maintenir le contact E.P/ enfants et E.P/ parents",
+                        "Acquérir de bonnes habitudes",
+                        "S'intégrer dans la vie de la société (à l'enfant)"
+                    ]
+                },
+                {
+                    "plan": "cognitif",
+                    "elements":[
+                        "Enrichir le vocabulaire",
+                        "Acquérir la notion de l'espace et du temps"
+                    ]
+                },
+                {
+                    "plan": "Psychomoteur",
+                    "elements":[
+                        "Détendre l'enfant",
+                        "Développer sa motricité"
+                    ]
+                }
+            ],
+            "Progress": "Dès 30, l'éducateur préscolaire de service est au grand portail ou à l'entrée principale, afin de recevoir les enfants et leurs accompagnateurs que sont, soit la mère, soit le père, soit la fille de maison ou encore tout autre parent. De là, les enfants iront chacun de son coté (sa classe) ranger leur sac dans les casiers avant de se mettre à jouer dans la cour de jeux et cela librement. À 08h00, dès que retentit la cloche ou la sirène, les enfants se dirigent vers les classes respectives. L'éducateur préscolaire les conduit soit immédiatement, soit peu de temps après le passage aux toilettes, selon la disponibilité des toilettes."
+        }
+    ]
+}
