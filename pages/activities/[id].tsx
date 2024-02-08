@@ -40,7 +40,7 @@ return (
         <h1>{(activity as Activity).name}</h1>
         <p>Description: {(activity as Activity).description}</p>
         <p>Hours: {(activity as Activity).hours}</p>
-        <p>Advantages: {(activity as Activity).advantages.join(', ')}</p>
+        <p>Advantages plan: {(activity as Activity).advantages.join(', ')}</p>
         <p>Progress: {(activity as Activity).progress}</p>
     </div>
 );
