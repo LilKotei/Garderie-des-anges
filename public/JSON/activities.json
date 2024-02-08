@@ -31,6 +31,84 @@
                 }
             ],
             "Progress": "Dès 30, l'éducateur préscolaire de service est au grand portail ou à l'entrée principale, afin de recevoir les enfants et leurs accompagnateurs que sont, soit la mère, soit le père, soit la fille de maison ou encore tout autre parent. De là, les enfants iront chacun de son coté (sa classe) ranger leur sac dans les casiers avant de se mettre à jouer dans la cour de jeux et cela librement. À 08h00, dès que retentit la cloche ou la sirène, les enfants se dirigent vers les classes respectives. L'éducateur préscolaire les conduit soit immédiatement, soit peu de temps après le passage aux toilettes, selon la disponibilité des toilettes."
+        },
+        {
+            "id": 2,
+            "name": "Le passage aux toilettes",
+            "description": "C'est un moment au cours duquel les enfants se rendent aux toilettes accompagnés de l'éducateur préscolaire pour satisfaire leur besoins.",
+            "hours": [
+                "Le matin : de 07h30 à 08h00",
+                "L'après-midi: de 14h00 à 14h30"
+            ],
+            "advantages": [
+                {
+                    "plan": "socio-affectif",
+                    "elements": [
+                        "Être discipliné",
+                        "Prendre conscience de l'autre",
+                        "Acquérir son autonomie",
+                        "Être à l'aise pour les activités en classe"
+                    ]
+                },
+                {
+                    "plan": "cognitif",
+                    "elements": [
+                        "Utiliser correctement les sanitaires",
+                        "Acquérir les notions élémentaires d'hygiène et de propre",
+                        "Enrichir son vocabulaire",
+                        "Satisfaire sa curiosité",
+                        "Acquérir son autonomie"
+                    ]
+                },
+                {
+                    "plan": "psychomoteur",
+                    "elements": [
+                        "Développer sa motricité fine",
+                        "Raffermir les muscles de la main"
+                    ]
+                }
+            ],
+            "Progress": "L'accueil a lieu deux fois dans la journée. Elle se déroule comme suite: Le matin : de 07h30 à 08h00, L'après-midi: de 14h00 à 14h30"
+        },
+        {
+            "id": 3,
+            "name": "Le gouter",
+            "description": "Le gouter est un petit repas riche et varié, Au centre de la protection de petite enfance privé (CEPPEP), c'est un besoin psychologique qui se prend entre le petit déjeuner et le déjeuner pour la matinée et concernant la soirée, le gouter se prend entre le déjeuner et le diner (pour les petits enfants du CEPPEP).",
+            "advantages": [
+                {
+                    "plan": "general",
+                    "elements":[
+                        "Avoir le sens du partage",
+                        "Communiquer",
+                        "Acquerir le sens de la responsabilité",
+                        "Développer le sens de la discipline",
+                        "Epouser certaines habitudes morales"
+                    ]
+                },
+                {
+                    "plan": "cognitif",
+                    "elements":[
+                        "Enrichir le vocabulaire",
+                        "Découvrir de nouveaux mets",
+                        "Développer le sens du gout",
+                        "Faire des comparaisons",
+                        "Développement du sens de rangement",
+                        "Se situer dans le temps",
+                        "Observer les règles élémentaires d'hygiène"
+                    ]
+                },
+                {
+                    "plan": "psychomoteur",
+                    "elements":[
+                        "Avoir une alimentation équilibrée",
+                        "Avoir une croissance bonne",
+                        "Récupérer l'énergie perdue lors des activités",
+                        "Satisfaire son besoin alimentaire",
+                        "Permettre la détente"
+                    ]
+                }
+            ],
+            "Progress": "A l'absence de gouter, l'éducateur préscolaire dirige les enfants vers tous les coins d'eau pour que ceux-ci se lavent les mains avant d'avoir accès à leur gouters. Ensuite, dans l'ordre, les enfants vont chercher leurs sacs contenant les gouters. Assis sur les nattes ou à table, les enfants chantent après lE.P un chant pour inciter à l'appétit. Les enfants commencent à manger ensemble. A la fin, chacun range sagement dans l'ordre les sacs."
         }
     ]
 }
