@@ -1,0 +1,160 @@
+{
+    "workshops": [
+      {
+        "id": "Activité1",
+        "title": "Atelier d'expression esthétique",
+        "description": "Au programme de cet atelier, nous avons des activités manuelles et créatives variées telles que le déchiquetage, le collage, la peinture de différentes formes et l'utilisation de divers matériaux pour l'expression artistique.",
+        "activities": [
+          "Activité manuelle",
+          "Déchiquetage / Collage",
+          "Découpage / Collage",
+          "Peinture aux doigts",
+          "Peinture aux pieds",
+          "Peinture coulée",
+          "Peinture soufflée",
+          "Empreintes des mains",
+          "Empreintes des pieds",
+          "Impression",
+          "Peinture magique",
+          "Peinture à la brosse",
+          "Peinture au peigne",
+          "Modelage",
+          "Tissage",
+          "Teinture",
+          "Coloriage",
+          "Utilisation de légumes, fruits, feuilles, mousses pour la création"
+        ],
+        "image": "Image/activites_manuelles.jpeg"
+      },
+      {
+        "id": "Activité2",
+        "title": "Atelier de langage et d'expression orale",
+        "description": "Cet atelier encourage l'enrichissement du vocabulaire, le développement de la structure de la phrase, la latéralisation dans le temps et dans l'espace, et la capacité de se situer par rapport à son environnement.",
+        "objectives": [
+          "Enrichir son vocabulaire",
+          "Imaginer",
+          "Connaître son vécu",
+          "Développer le langage spontané",
+          "Faire des structures de phrases",
+          "Se latéraliser dans le temps et dans l'espace",
+          "Se situer par rapport à son environnement"
+        ],
+        "language_activities": {
+          "Conte": ["Bande", "Marotte", "Marionnette", "Mime"],
+          "Causerie": ["Support ou sans support", "Concret-abstrait"],
+          "Autres": ["Observation avec élément à observer", "Initiation à l'art culinaire avec recette"]
+        },
+        "image": "Image/Langage.png"
+      },
+      {
+        "id": "Activité3",
+        "title": "Atelier d'eveil mathématique",
+        "description": "L'atelier d'éveil mathématique est conçu pour développer un esprit logique chez l'enfant, ainsi que pour l'aider à se situer dans l'espace et à suivre un ordre chronologique à travers des activités pratiques et ludiques.",
+        "activities": [
+          "Jeu de position avec des baguettes",
+          "Reconstitution d'un mot",
+          "Jeu de Kim",
+          "Constitution d'une phrase à partir d'un dessin",
+          "Identification à partir des témoins",
+          "Reconnaissance des différentes personnes à partir des photos",
+          "Mots à rythmer à partir des syllabes",
+          "Reconnaissance des voyelles à travers les mots",
+          "Jeu de voyelles"
+        ]
+      },
+      {
+        "id": "Activité4",
+        "title": "Atelier de pré-lecture",
+        "description": "This workshop focuses on preparing children for reading through various activities that enhance articulation, sense development, body schema identification, and listening skills.",
+        "activities": [
+          "Articulation exercises with songs, poems, rhymes",
+          "Sensory development activities",
+          "Body schema identification",
+          "Coding and decoding exercises",
+          "Listening exercises",
+          "Mastery of various learning domains"
+        ],
+        "proposed_activities": [
+          "Positioning game with sticks",
+          "Word reconstitution game",
+          "Kim's game",
+          "Sentence formation from drawings",
+          "Identification using tokens",
+          "Recognition of different people from photos",
+          "Rhythm words with syllables",
+          "Vowel recognition through words",
+          "Vowel games"
+        ]
+      },
+      {
+        "id": "Activité5",
+        "title": "Atelier de création",
+        "description": "In the creation workshop, children are encouraged to imagine and create, developing fine motor skills through activities that involve arranging colors and shapes and respecting given directions and measurements.",
+        "activities": [
+          "Finger painting",
+          "Coloring",
+          "Collage",
+          "Threading",
+          "Tearing",
+          "Cutting",
+          "Modeling",
+          "Rolling",
+          "Sewing, weaving, braiding",
+          "Folding"
+        ]
+      },
+
+          {
+            "id": "Activité6",
+            "title": "Atelier d'éducation motrice",
+            "description": "Focuses on physical development and self-expression through movement, emphasizing body awareness and control.",
+            "activities": [
+              "Walking",
+              "Running",
+              "Jumping",
+              "Balancing",
+              "Throwing",
+              "Carrying",
+              "Crawling",
+              "Climbing",
+              "Quadrupedal movement"
+            ]
+          },
+          {
+            "id": "Activité7",
+            "title": "Atelier d'éducation musicale",
+            "description": "Enhances auditory skills and social development through musical activities, including instrument recognition and rhythmic expression.",
+            "activities": [
+              "Song learning",
+              "Instrument introduction",
+              "Sound identification",
+              "Reproduction of sounds",
+              "Coding and decoding",
+              "Musical dictation",
+              "Orchestra formation"
+            ]
+          },
+          {
+            "id": "Activité8",
+            "title": "Graphisme",
+            "description": "Prepares children for writing by developing fine motor skills and introducing them to the alphabet in an aesthetic and enjoyable way.",
+            "activities": [
+              "Point drawing",
+              "Vertical and horizontal lines",
+              "Combining lines",
+              "Broken lines",
+              "Curves",
+              "Circles",
+              "Spirals",
+              "Stick letters",
+              "Waves",
+              "Bridges",
+              "Loops",
+              "Introduction to vowels and consonants"
+            ]
+        }
+      
+      
+    ]
+  }
+  
