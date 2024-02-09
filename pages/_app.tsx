@@ -1,4 +1,4 @@
-import '../app/globals.css'; // Adjust the path to your globals.css file
+import '../app/globals.css'; 
 import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
