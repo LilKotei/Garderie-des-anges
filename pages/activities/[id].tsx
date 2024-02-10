@@ -10,13 +10,13 @@ type Activity = {
       plan: string;
       elements: string[];
     }[];
-    progress: string;
+    Progress: string;
   };
 
 const ActivityDetails = () => {
   const router = useRouter();
   const { id } = router.query;
-  const [activity, setActivity] = useState(null);
+  const [activity, setActivity] = useState<Activity | null>(null);
 
   useEffect(() => {
     const fetchActivity = async () => {
@@ -32,18 +32,25 @@ const ActivityDetails = () => {
   }, [id]);
 
 if (!activity) {
-    return <p>Loading...</p>;
+  return <p>Loading...</p>;
 }
 
 return (
-    <div>
-        <h1>{(activity as Activity).name}</h1>
-        <p>Description: {(activity as Activity).description}</p>
-        <p>Hours: {(activity as Activity).hours}</p>
-        <p>Advantages plan: {(activity as Activity).advantages.join(', ')}</p>
-        <p>Progress: {(activity as Activity).progress}</p>
-    </div>
+  <div>
+    <h1>{activity.name}</h1>
+    <p>Description: {activity.description}</p>
+    <p>Hours: {activity.hours}</p>
+    <p>Advantages plan: {activity.advantages.map(element => (
+      <div key={element.plan}>
+        <p>{element.plan}</p>
+        <p>{element.elements}</p>
+      </div>
+    ))}</p>
+    <p>Progress: {activity.Progress}</p>
+  </div>
 );
-};
+    }
 
 export default ActivityDetails;
+
+
