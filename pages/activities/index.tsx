@@ -41,10 +41,11 @@ const ActivitiesPage = () => {
   }, []);
 
   return (
-    <div className="bg-gray-50 min-h-screen">
-      <Navbar />
+    <>
+    <Navbar />
+    <div className="bg-gray-50 min-h-screen pt-32">
 
-      <div className="w-full lg:w-4/5 mx-auto mt-10">
+      <div className="w-full lg:w-4/5 mx-auto">
         <h2 className="text-4xl font-bold text-blue-600 mb-4">Nos objectifs</h2>
         <p className="mb-4 text-black">
           L'objectif principal du programme d'éducation préscolaire de qualité
@@ -197,6 +198,7 @@ const ActivitiesPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

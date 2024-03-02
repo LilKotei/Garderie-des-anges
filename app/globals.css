@@ -16,6 +16,7 @@
   }
 }
 
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +31,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.carousel-image {
+  padding-top: 6em;
+  height: 1000px !important;
+}
+
+.carousel-image-img {
+  width: 100% !important;
+  height: 100% !important;
 }

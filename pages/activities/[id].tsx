@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import Navbar from '@/components/NavBar';
 
 type Activity = {
     id: number;
@@ -36,18 +37,21 @@ if (!activity) {
 }
 
 return (
-  <div>
-    <h1>{activity.name}</h1>
-    <p>Description: {activity.description}</p>
-    <p>Hours: {activity.hours}</p>
-    <p>Advantages plan: {activity.advantages.map(element => (
-      <div key={element.plan}>
-        <p>{element.plan}</p>
-        <p>{element.elements}</p>
-      </div>
-    ))}</p>
-    <p>Progress: {activity.Progress}</p>
-  </div>
+  <>
+    <Navbar />
+    <div>
+      <h1>{activity.name}</h1>
+      <p>Description: {activity.description}</p>
+      <p>Hours: {activity.hours}</p>
+      <p>Advantages plan: {activity.advantages.map(element => (
+        <div key={element.plan}>
+          <p>{element.plan}</p>
+          <p>{element.elements}</p>
+        </div>
+      ))}</p>
+      <p>Progress: {activity.Progress}</p>
+    </div>
+  </>
 );
     }
 
