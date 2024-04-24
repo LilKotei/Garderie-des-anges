@@ -1,8 +1,7 @@
 import React from 'react';
-import Navbar from "@/components/NavBar";
+import Navbar from '@/app/_components/NavBar';
 
 const TarifsPage = () => {
-  // Example content, replace with actual content from your HTML file
   const tarifsInfo = [
     {
       title: "Horaires",
@@ -25,7 +24,6 @@ const TarifsPage = () => {
         { type: "À la demi-journée", price: "10 000 fcfa" },
       ],
     },
-    // Add other sections similarly...
   ];
 
   return (

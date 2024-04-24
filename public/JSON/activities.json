@@ -2,6 +2,7 @@
     "activities":[
         {
             "id":1,
+            "image" : "/images/services/Accueil.jpg",
             "name": "L'accueil",
             "description": "L'accueil est le premier contact avec le client. Il est important de lui donner une bonne impression.",
             "hours": "8h00 - 12h00",
@@ -35,6 +36,7 @@
         {
             "id": 2,
             "name": "Le passage aux toilettes",
+            "image": "/images/services/Toilet.png",
             "description": "C'est un moment au cours duquel les enfants se rendent aux toilettes accompagnés de l'éducateur préscolaire pour satisfaire leur besoins.",
             "hours": [
                 "Le matin : de 07h30 à 08h00",
@@ -73,6 +75,7 @@
         {
             "id": 3,
             "name": "Le gouter",
+            "image": "/images/services/gouter.png",
             "description": "Le gouter est un petit repas riche et varié, Au centre de la protection de petite enfance privé (CEPPEP), c'est un besoin psychologique qui se prend entre le petit déjeuner et le déjeuner pour la matinée et concernant la soirée, le gouter se prend entre le déjeuner et le diner (pour les petits enfants du CEPPEP).",
             "advantages": [
                 {
@@ -109,6 +112,77 @@
                 }
             ],
             "Progress": "À l'absence de gouter, l'éducateur préscolaire dirige les enfants vers tous les coins d'eau pour que ceux-ci se lavent les mains avant d'avoir accès à leur gouters. Ensuite, dans l'ordre, les enfants vont chercher leurs sacs contenant les gouters. Assis sur les nattes ou à table, les enfants chantent après lE.P un chant pour inciter à l'appétit. Les enfants commencent à manger ensemble. A la fin, chacun range sagement dans l'ordre les sacs."
+        },
+        {
+            "id": 4,
+            "name": "La sortie",
+            "image": "/images/services/Sortie.png",
+            "description": "Au centre de la protection de la petite enfance privée, la sortie est un moment organisé quiest la fin des activités. ",
+            "hours": [
+                "La matinée: à partir de 11h30mm",
+                "L'après-midi : à partir de 15h00"
+            ],
+            "advantages": [
+                {
+                    "plan": "socio-affectif",
+                    "elements": [
+                        "Retrouver sa famille",
+                        "Développer sa patience",
+                        "Être aimé et aimer"
+                    ]
+                },
+                {
+                    "plan": "cognitif",
+                    "elements": [
+                        "Savoir s'orienter dans l'espace et le temps",
+                        "Développer son attention",
+                        "Acquérir de bonnes habitudes morales",
+                        "Explorer l'espace",
+                        "Être en mouvement"
+                    ]
+                }
+            ],
+            "Progress": "À 11h30, l'éducateur(trice) ou l'E.P entonne un chant d'au revoir. Les parents arrivent pour chercher leurs enfants sur présentation d'identité. L'E.P reste vigilant pour éviter la perte d'un enfant. À partir de 12h15 ou 12h30, les enfants dont les parents ne sont pas arrivés sont confiés à l'E.P de service."
+        },
+        {
+            "id": 5,
+            "name": "La récréation",
+            "image": "/images/services/Recreation.png",
+            "description": "La recréation est , au centre de protection de la petite enfance privé, un temps accordé aux enfants pour jouer , s'amuser librement dans la cour, sur l'aire de jeu(x), cela s'est nécessairement voulu sous le regard vigilant de l'éducateur(trice).Cette récréation a lieu deux (2) fois dans la journée et se situe juste après le temps du goûter.",
+            "hours" : [
+                "Le matin : de 10h00 à 10h30",
+                "L'après-midi : de 15h30 à 16h00"
+            ],
+            "advantages" : [
+                {
+                    "plan": "socio-affectif",
+                    "elements": [
+                        "Favoriser la communication entre tous les enfants",
+                        "Jouer avec les autres enfants",
+                        "Se socialisé",
+                        "S'affirmer",
+                        "Prendre conscience des autres"
+                    ]
+                },
+                {
+                    "plan": "cognitif",
+                    "elements": [
+                        "Enrichir le vocabulaire de l'enfant",
+                        "Créer, manipuler, construire, découvrir et inventer souvent",
+                        "S'orienter dans le temps et l'espace"
+                    ]
+                },
+                {
+                    "plan": "psychomoteur",
+                    "elements": [
+                        "S'exprimer corporellement",
+                        "Être en mouvement (courir, sauter, grimper, se balancer, ...)"
+                    ]
+                }
+            ],
+            
+            "Progress": "Il est fonction, cela est clair, de chaque enfant. L'éducateur (trice) Lui / Elle a pour tache de veiller comme il faut, à ce que les enfants évitent de se blesser. Au terme de ce moment d'ébauche d'énergie, les enfants vont directement aux toilettes, soit par leurs propre gré soit sur ordre de l'éducateur (trice). C'est après ce tour aux toilettes que les enfants reprennent brièvement place dans la classe."
         }
+        
     ]
 }
