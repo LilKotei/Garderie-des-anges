@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from '@/app/_components/NavBar';
+import Navbar from '../_components/NavBar';
+import Footer from '../_components/Footer';
 
 const TarifsPage = () => {
   const tarifsInfo = [
@@ -53,6 +54,7 @@ const TarifsPage = () => {
           ))}
         </div>
       </div>
+      <Footer companyName="Creche Garderie des Anges" year={new Date().getFullYear()} />
     </>
   );
 };

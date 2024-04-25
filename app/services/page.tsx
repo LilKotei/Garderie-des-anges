@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@radix-ui/react-tabs";
 import Image from 'next/image';
+import Footer from "../_components/Footer";
 
 type Activity = {
   id: number;
@@ -266,6 +267,7 @@ const ActivitiesPage = () => {
           </div>
         </div>
       </div>
+      <Footer companyName="Creche Garderie des Anges" year={new Date().getFullYear()} />
     </>
   );
 };

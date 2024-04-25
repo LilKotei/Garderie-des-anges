@@ -19,6 +19,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Link from "next/link";
+import Footer from "./_components/Footer";
 
 type Activity = {
   id: number;
@@ -325,6 +326,7 @@ export default function Home() {
           </Carousel>
         </div>
       </div>
+      <Footer companyName="Garderie des Anges" year={new Date().getFullYear()} />
     </>
   );
 }

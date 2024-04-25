@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Navbar from "../../_components/NavBar";
+import Footer from "../../_components/Footer";
 
 type Workshop = {
   id: number;
@@ -61,6 +62,7 @@ const WorkshopDetails = ({ params }: { params: { slug: string } }) => {
           }
         </p>
       </div>
+      <Footer companyName="Creche Garderie des Anges" year={new Date().getFullYear()} />
     </>
   );
 }

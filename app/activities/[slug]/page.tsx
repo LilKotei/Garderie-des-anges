@@ -3,6 +3,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Navbar from '../../_components/NavBar';
+import Footer from '../../_components/Footer';
 
 type Activity = {
   id: number;
@@ -65,6 +66,7 @@ const ActivityDetails = ({ params }: { params: { slug: string } }) => {
         </div>
         <p className="text-lg font-medium my-4 text-blue-500">Progress: {activity.Progress}</p>
       </div>
+      <Footer companyName="Creche Garderie des Anges" year={new Date().getFullYear()} />
     </>
   );
 }

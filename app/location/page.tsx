@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from '../_components/NavBar';
 import Link from 'next/link';
+import Footer from '../_components/Footer';
 
 const LocalisationPage = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-50 min-h-screen pt-32"> 
+      <div className="min-h-screen pt-32"> 
         <h1 className="text-4xl font-bold text-center my-10 text-blue-900">Localisation</h1>
         <div className="content">
     <h2 className="text-3xl font-bold text-center my-10 text-blue-900">Où nous trouver ?</h2>
@@ -22,6 +23,7 @@ const LocalisationPage = () => {
     </span>
   </div>
         </div>
+        <Footer companyName="Garderie des Anges" year={2024} />
     </>
   );
 };
