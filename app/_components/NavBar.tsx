@@ -24,7 +24,7 @@ const Navbar = () => {
                                 <Link href="/services"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">Nos activités</div></Link> 
                                 <Link href="/location"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">Localisation</div></Link> 
                                 <Link href="/pricing"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">Nos tarifs</div></Link> 
-                                <Link href="/about"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">À propos</div></Link> 
+                                <Link href="/actualite"><div className="text-blue-900 border-b-2 border-transparent hover:border-orange-500 px-3 py-2 text-lg pb-3 font-medium cursor-pointer">Actualite</div></Link> 
                             </div>
                         </div>
                     </div>
