@@ -102,7 +102,7 @@ const TarifsPage = () => {
                   <li>Le matin : 08h30 - 11h30</li>
                   <li>L'après-midi : 14h30 - 16h30</li>
                 </ul>
-                <h2>Conditions d'âge</h2>
+                <h2 className="text-blue-900">Conditions d'âge</h2>
                 <ul className="list-disc list-inside text-blue-900">
                   <li>Petite section : 2 - 3 ans</li>
                   <li>Moyenne section : 3 - 4 ans</li>
